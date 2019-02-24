@@ -40,6 +40,7 @@
     "typescript": "^3.3.3"
   },
   "dependencies": {
+    "@personaspace/server-acl-middleware-types": "^0.1.4",
     "@types/node": "^11.9.5"
   }
 }
