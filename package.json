@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "files": [
-    "./lib/**/*",
-    "./types/**/*"
+    "./lib/**/*.js",
+    "./types/**/*.ts"
   ],
   "scripts": {
     "test": "npm run build && intern",
