@@ -1,6 +1,6 @@
 {
   "name": "@personaspace/server-acl-middleware-ondomain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PersonaSpace Node.js server ACL middleware that prevents/allows access based on the host requesting data.",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
