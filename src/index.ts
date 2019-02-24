@@ -1,6 +1,5 @@
+import { IResourceACLMiddleware } from "@personaspace/server-acl-middleware-types";
 import { IncomingMessage } from "http";
-import { IResourceACLMiddleware } from "./types";
-export * from "./types";
 
 /**
  * Middleware that determines whether a request from a domain is made.
