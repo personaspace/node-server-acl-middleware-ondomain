@@ -1,0 +1,45 @@
+{
+  "name": "@personaspace/server-acl-middleware-ondomain",
+  "version": "0.1.0",
+  "description": "PersonaSpace Node.js server ACL middleware that prevents/allows access based on the host requesting data.",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "./lib/**/*",
+    "./types/**/*"
+  ],
+  "scripts": {
+    "test": "npm run build && intern",
+    "lint": "tslint src/**/*.ts tests/**/*.ts",
+    "format": "tslint -c tslint.json src/**/*.ts tests/**/*.ts --fix",
+    "build": "npm run lint && tsc",
+    "build:prod": "npm run lint && tsc -p tsconfig.deploy.json",
+    "preversion": "npm test",
+    "docs": "typedoc --out docs --mode file --theme minimal src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/personaspace/node-server-acl-middleware-ondomain.git"
+  },
+  "keywords": [
+    "PersonaSpace",
+    "ACL",
+    "node",
+    "server",
+    "middleware"
+  ],
+  "author": "Eric L. Bentley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/personaspace/node-server-acl-middleware-ondomain/issues"
+  },
+  "homepage": "https://github.com/personaspace/node-server-acl-middleware-ondomain#readme",
+  "devDependencies": {
+    "intern": "^4.4.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^11.9.5"
+  }
+}
