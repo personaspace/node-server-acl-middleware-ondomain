@@ -1,0 +1,11 @@
+{
+    "suites": ["./_build/tests/unit/**/*.test.js"],
+    "coverage": ["./_build/src/**/*.js"],
+    "reporters": [
+        "runner",
+        {
+            "name": "jsoncoverage",
+            "filename": "coverage.json"
+        }
+    ]
+}
